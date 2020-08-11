@@ -6,7 +6,7 @@
   <link href="https://kzcy.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://kzcy.gitee.io/"/>
-  <updated>2020-08-11T02:46:19.389Z</updated>
+  <updated>2020-08-11T02:35:54.474Z</updated>
   <id>https://kzcy.gitee.io/</id>
   
   <author>
@@ -15,19 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>your article name</title>
-    <link href="https://kzcy.gitee.io/2020/08/11/your-article-name/"/>
-    <id>https://kzcy.gitee.io/2020/08/11/your-article-name/</id>
-    <published>2020-08-11T02:46:19.000Z</published>
-    <updated>2020-08-11T02:46:19.389Z</updated>
-    
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
