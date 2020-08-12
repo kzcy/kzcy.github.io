@@ -79,14 +79,6 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2020/08/11/%E5%85%B3%E4%BA%8E%E4%BA%BA%E6%80%A7%E7%9A%84%E6%80%9D%E8%80%83/</url>
-    <content><![CDATA[<p>title: test</p>
-<h1 id="关于人性的思考"><a href="#关于人性的思考" class="headerlink" title="关于人性的思考"></a>关于人性的思考</h1><p>古人云：人之初，性本善！</p>
-<h2 id="人性的起源"><a href="#人性的起源" class="headerlink" title="人性的起源"></a>人性的起源</h2><p>发动机阿双方均领导发酵饲料！！</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2020/08/11/hello-world4/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -111,5 +103,13 @@
       <tags>
         <tag>welcome</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2020/08/11/%E5%85%B3%E4%BA%8E%E4%BA%BA%E6%80%A7%E7%9A%84%E6%80%9D%E8%80%83/</url>
+    <content><![CDATA[<p>title: test</p>
+<h1 id="关于人性的思考"><a href="#关于人性的思考" class="headerlink" title="关于人性的思考"></a>关于人性的思考</h1><p>古人云：人之初，性本善！</p>
+<h2 id="人性的起源"><a href="#人性的起源" class="headerlink" title="人性的起源"></a>人性的起源</h2><p>发动机阿双方均领导发酵饲料！！</p>
+]]></content>
   </entry>
 </search>
