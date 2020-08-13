@@ -1,33 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我与“博客”的故事</title>
-    <url>/2016/08/19/%E6%88%91%E4%B8%8E%E2%80%9C%E5%8D%9A%E5%AE%A2%E2%80%9D%E7%9A%84%E6%95%85%E4%BA%8B/</url>
-    <content><![CDATA[<h1 id="关于懒"><a href="#关于懒" class="headerlink" title="关于懒"></a>关于懒</h1><p>鄙人向来都乐于承认懒的天性，周末懒得出去玩，不重要的事情懒得记，甚至有的事情都懒得想。兴趣爱好<del>也可以</del>说得上广泛，特别是科技方面，各种新奇事物都想<del>第一个</del>尝试，但经常是三分钟的热情，新鲜劲一过就放弃了。唯一坚持比较久的事情是学生时代写日记的习惯，足足写了数十本，但很多都已在数次搬家中遗失。</p>
- <a id="more"></a>
-
-<h1 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h1><p>一直很羡慕坚持写独立博客的人，2011年在中科院四川山地研究所忠县站实习的时候，几个大男人除了做实验就是玩电脑，又没有什么相同的游戏爱好，闲的实在蛋疼开始捣鼓博客，一通百度以后以后选定了<code>Micolog</code>，托管在<code>GAE</code>上面。奈何专业与之牛马不相及，瞎捣鼓一通也没什么成绩，写了几篇不痛不痒的文章后就放弃了，当然Google也被墙了。<br>后来，国内有了<code>SAE</code>、<code>BAE</code>，最开始都打着免费的旗号吸引小白，捣鼓了一通搞了个<code>WordPress</code>，当时觉得就特牛逼了，然而并没有什么卵用，懒的天性又一次打败了我，在写了几篇文章后就放在那里长草了。期间国内微博开始流行起来，碎片化的写作方式代替了耗时耗力的博客运营，我也像墙头草一样倒向了潮流，微博数量也码上了千条。再后来工作以后，各种事物烦杂，逐渐就放弃了每天记录的习惯。<br>近来工作繁忙，经常需要做备忘，就下载了印象笔记做记录，坚持一段时间竟怀恋起以前记录生活的感觉，遂着手寻找合适的独立博客平台。</p>
-<h2 id="博客平台的思考"><a href="#博客平台的思考" class="headerlink" title="博客平台的思考"></a>博客平台的思考</h2><p>对照记录生活的初衷，又要避免以前半途而废的悲剧，总结了以下几点需求：</p>
-<ul>
-<li>平台功能简单，能记录即可；</li>
-<li>数据能够备份，最好能够实时同步；</li>
-<li>多平台记录，方便随时更新。</li>
-</ul>
-<p>经过一番考察，最后选定了以前接触过的<code>Farbox</code>，倒腾了几天    Clone了一套自己心仪的主题，绑定了微信公众<del>好</del>号，翻墙绑定了<code>Dropbox</code>同步，独立域名什么的就放弃了，也基本上达到了我对于博客的需求。在此感谢<a href="http://farbox.com/">平台</a>作者和<a href="http://www.sunnyyoung.net/">主题移植者</a>。</p>
-<h1 id="Flag"><a href="#Flag" class="headerlink" title="Flag"></a>Flag</h1><p>又开始回归记录生活，不想立下任何的Flag，不定期的记录下工作中的想法、日常的影像、折腾的过程就好。<br>爱上了Markdown语言，决定以后都用它了。</p>
-<hr>
-<p>——夔州苍云<br>2016年6月19日于青龙</p>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo下Markdown的使用</title>
-    <url>/2016/08/22/hexo%E4%B8%8BMarkdown%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <title>Hexo下Markdown的使用</title>
+    <url>/2020/08/12/Hexo%E4%B8%8BMarkdown%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<h2 id="一、创建文章"><a href="#一、创建文章" class="headerlink" title="一、创建文章"></a><strong>一、创建文章</strong></h2><p>在站点文件夹中打开 git bash，输入如下命令创建文章，其中 <code>title</code> 为文章的标题</p>
 <p><em>$ hexo new “title”</em></p>
 <p>当输入命令后，就会在 <code>source/_post</code> 文件夹下创建一个文件，命名为：<code>title.md</code></p>
@@ -153,9 +128,34 @@
         <category>备忘</category>
       </categories>
       <tags>
-        <tag>markdown</tag>
-        <tag>hexo</tag>
+        <tag>Markdown</tag>
+        <tag>Hexo</tag>
         <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我与“博客”的故事</title>
+    <url>/2016/08/19/%E6%88%91%E4%B8%8E%E2%80%9C%E5%8D%9A%E5%AE%A2%E2%80%9D%E7%9A%84%E6%95%85%E4%BA%8B/</url>
+    <content><![CDATA[<h1 id="关于懒"><a href="#关于懒" class="headerlink" title="关于懒"></a>关于懒</h1><p>鄙人向来都乐于承认懒的天性，周末懒得出去玩，不重要的事情懒得记，甚至有的事情都懒得想。兴趣爱好<del>也可以</del>说得上广泛，特别是科技方面，各种新奇事物都想<del>第一个</del>尝试，但经常是三分钟的热情，新鲜劲一过就放弃了。唯一坚持比较久的事情是学生时代写日记的习惯，足足写了数十本，但很多都已在数次搬家中遗失。</p>
+ <a id="more"></a>
+
+<h1 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h1><p>一直很羡慕坚持写独立博客的人，2011年在中科院四川山地研究所忠县站实习的时候，几个大男人除了做实验就是玩电脑，又没有什么相同的游戏爱好，闲的实在蛋疼开始捣鼓博客，一通百度以后以后选定了<code>Micolog</code>，托管在<code>GAE</code>上面。奈何专业与之牛马不相及，瞎捣鼓一通也没什么成绩，写了几篇不痛不痒的文章后就放弃了，当然Google也被墙了。<br>后来，国内有了<code>SAE</code>、<code>BAE</code>，最开始都打着免费的旗号吸引小白，捣鼓了一通搞了个<code>WordPress</code>，当时觉得就特牛逼了，然而并没有什么卵用，懒的天性又一次打败了我，在写了几篇文章后就放在那里长草了。期间国内微博开始流行起来，碎片化的写作方式代替了耗时耗力的博客运营，我也像墙头草一样倒向了潮流，微博数量也码上了千条。再后来工作以后，各种事物烦杂，逐渐就放弃了每天记录的习惯。<br>近来工作繁忙，经常需要做备忘，就下载了印象笔记做记录，坚持一段时间竟怀恋起以前记录生活的感觉，遂着手寻找合适的独立博客平台。</p>
+<h2 id="博客平台的思考"><a href="#博客平台的思考" class="headerlink" title="博客平台的思考"></a>博客平台的思考</h2><p>对照记录生活的初衷，又要避免以前半途而废的悲剧，总结了以下几点需求：</p>
+<ul>
+<li>平台功能简单，能记录即可；</li>
+<li>数据能够备份，最好能够实时同步；</li>
+<li>多平台记录，方便随时更新。</li>
+</ul>
+<p>经过一番考察，最后选定了以前接触过的<code>Farbox</code>，倒腾了几天    Clone了一套自己心仪的主题，绑定了微信公众<del>好</del>号，翻墙绑定了<code>Dropbox</code>同步，独立域名什么的就放弃了，也基本上达到了我对于博客的需求。在此感谢<a href="http://farbox.com/">平台</a>作者和<a href="http://www.sunnyyoung.net/">主题移植者</a>。</p>
+<h1 id="Flag"><a href="#Flag" class="headerlink" title="Flag"></a>Flag</h1><p>又开始回归记录生活，不想立下任何的Flag，不定期的记录下工作中的想法、日常的影像、折腾的过程就好。<br>爱上了Markdown语言，决定以后都用它了。</p>
+<hr>
+<p>——夔州苍云<br>2016年6月19日于青龙</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
