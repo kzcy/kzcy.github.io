@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>我与“博客”的故事</title>
+    <url>/2016/08/19/e16e756b9e8c/</url>
+    <content><![CDATA[<h1 id="关于懒"><a href="#关于懒" class="headerlink" title="关于懒"></a>关于懒</h1><p>鄙人向来都乐于承认懒的天性，周末懒得出去玩，不重要的事情懒得记，甚至有的事情都懒得想。兴趣爱好<del>也可以</del>说得上广泛，特别是科技方面，各种新奇事物都想<del>第一个</del>尝试，但经常是三分钟的热情，新鲜劲一过就放弃了。唯一坚持比较久的事情是学生时代写日记的习惯，足足写了数十本，但很多都已在数次搬家中遗失。</p>
+ <a id="more"></a>
+
+<h1 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h1><p>一直很羡慕坚持写独立博客的人，2011年在中科院四川山地研究所忠县站实习的时候，几个大男人除了做实验就是玩电脑，又没有什么相同的游戏爱好，闲的实在蛋疼开始捣鼓博客，一通百度以后以后选定了<code>Micolog</code>，托管在<code>GAE</code>上面。奈何专业与之牛马不相及，瞎捣鼓一通也没什么成绩，写了几篇不痛不痒的文章后就放弃了，当然Google也被墙了。<br>后来，国内有了<code>SAE</code>、<code>BAE</code>，最开始都打着免费的旗号吸引小白，捣鼓了一通搞了个<code>WordPress</code>，当时觉得就特牛逼了，然而并没有什么卵用，懒的天性又一次打败了我，在写了几篇文章后就放在那里长草了。期间国内微博开始流行起来，碎片化的写作方式代替了耗时耗力的博客运营，我也像墙头草一样倒向了潮流，微博数量也码上了千条。再后来工作以后，各种事物烦杂，逐渐就放弃了每天记录的习惯。<br>近来工作繁忙，经常需要做备忘，就下载了印象笔记做记录，坚持一段时间竟怀恋起以前记录生活的感觉，遂着手寻找合适的独立博客平台。</p>
+<h2 id="博客平台的思考"><a href="#博客平台的思考" class="headerlink" title="博客平台的思考"></a>博客平台的思考</h2><p>对照记录生活的初衷，又要避免以前半途而废的悲剧，总结了以下几点需求：</p>
+<ul>
+<li>平台功能简单，能记录即可；</li>
+<li>数据能够备份，最好能够实时同步；</li>
+<li>多平台记录，方便随时更新。</li>
+</ul>
+<p>经过一番考察，最后选定了以前接触过的<code>Farbox</code>，倒腾了几天    Clone了一套自己心仪的主题，绑定了微信公众<del>好</del>号，翻墙绑定了<code>Dropbox</code>同步，独立域名什么的就放弃了，也基本上达到了我对于博客的需求。在此感谢<a href="http://farbox.com/">平台</a>作者和<a href="http://www.sunnyyoung.net/">主题移植者</a>。</p>
+<h1 id="Flag"><a href="#Flag" class="headerlink" title="Flag"></a>Flag</h1><p>又开始回归记录生活，不想立下任何的Flag，不定期的记录下工作中的想法、日常的影像、折腾的过程就好。<br>爱上了Markdown语言，决定以后都用它了。</p>
+<hr>
+<p>——夔州苍云<br>2016年6月19日于青龙</p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>探秘巫溪烤鱼</title>
+    <url>/2016/09/01/ce6798c4a9bc/</url>
+    <content><![CDATA[<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166885180926281.jpg" alt="6325166885180926281"></p>
+<a id="more"></a>
+
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166889475893578.jpg" alt="6325166889475893578"></p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166893770860876.jpg" alt="6325166893770860876"></p>
+]]></content>
+      <categories>
+        <category>摄影</category>
+        <category>美食</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>美食</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo下Markdown的使用</title>
-    <url>/2020/08/12/Hexo%E4%B8%8BMarkdown%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <url>/2020/08/12/e22a0751302a/</url>
     <content><![CDATA[<h2 id="一、创建文章"><a href="#一、创建文章" class="headerlink" title="一、创建文章"></a><strong>一、创建文章</strong></h2><p>在站点文件夹中打开 git bash，输入如下命令创建文章，其中 <code>title</code> 为文章的标题</p>
 <p><em>$ hexo new “title”</em></p>
 <p>当输入命令后，就会在 <code>source/_post</code> 文件夹下创建一个文件，命名为：<code>title.md</code></p>
@@ -18,7 +61,7 @@
 <p>Ctrl+6 ：六级标题</p>
 <p><em>Ctrl+0：段落</em></p>
 <h4 id="Markdown-语法："><a href="#Markdown-语法：" class="headerlink" title="Markdown 语法："></a>Markdown 语法：</h4><hr>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">*斜体*</span><br><span class="line">**粗体**</span><br><span class="line">***加粗斜体***</span><br><span class="line">~~删除线~~</span><br><span class="line">1234</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">*斜体*</span></span><br><span class="line"><span class="strong">**粗体**</span></span><br><span class="line"><span class="strong">**<span class="emphasis">*加粗斜体<span class="strong">**<span class="emphasis">*</span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">~~删除线~~</span></span></span></span></span><br><span class="line"><span class="strong"><span class="emphasis"><span class="strong"><span class="emphasis">1234</span></span></span></span></span><br></pre></td></tr></table></figure>
 
 <p><strong>Typora 快捷键：</strong></p>
 <p>Ctrl+I：斜体</p>
@@ -30,7 +73,7 @@
 <p>在Typora中输入””” + 回车，并在后面选择一个语言名称即可语法高亮。</p>
 <blockquote>
 <p>语法高亮:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt; &gt; &gt; def helloWorld():</span><br><span class="line">&gt; &gt; &gt;     print &#39;hello, world&#39;</span><br><span class="line">&gt; &gt; &gt; </span><br><span class="line">&gt; &gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&gt; &gt; &gt; <span class="function"><span class="keyword">def</span> <span class="title">helloWorld</span>():</span></span><br><span class="line">&gt; &gt; &gt;     <span class="keyword">print</span> <span class="string">&#x27;hello, world&#x27;</span></span><br><span class="line">&gt; &gt; &gt; </span><br><span class="line">&gt; &gt;</span><br></pre></td></tr></table></figure>
 </blockquote>
 </blockquote>
 <h4 id="表"><a href="#表" class="headerlink" title="表"></a>表</h4><blockquote>
@@ -80,11 +123,11 @@
 </blockquote>
 <h3 id="内置样式"><a href="#内置样式" class="headerlink" title="内置样式"></a>内置样式</h3><h4 id="分割线和空行"><a href="#分割线和空行" class="headerlink" title="分割线和空行"></a>分割线和空行</h4><blockquote>
 <p>这是文字</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt; &lt;hr &#x2F;&gt;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&gt; &lt;hr /&gt;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
 </blockquote>
 <blockquote>
 <p>上面是分隔线</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt; &lt;br &#x2F;&gt;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&gt; &lt;br /&gt;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
 </blockquote>
 <blockquote>
 <p>上面是空行</p>
@@ -138,51 +181,8 @@
       </tags>
   </entry>
   <entry>
-    <title>我与“博客”的故事</title>
-    <url>/2016/08/19/%E6%88%91%E4%B8%8E%E2%80%9C%E5%8D%9A%E5%AE%A2%E2%80%9D%E7%9A%84%E6%95%85%E4%BA%8B/</url>
-    <content><![CDATA[<h1 id="关于懒"><a href="#关于懒" class="headerlink" title="关于懒"></a>关于懒</h1><p>鄙人向来都乐于承认懒的天性，周末懒得出去玩，不重要的事情懒得记，甚至有的事情都懒得想。兴趣爱好<del>也可以</del>说得上广泛，特别是科技方面，各种新奇事物都想<del>第一个</del>尝试，但经常是三分钟的热情，新鲜劲一过就放弃了。唯一坚持比较久的事情是学生时代写日记的习惯，足足写了数十本，但很多都已在数次搬家中遗失。</p>
- <a id="more"></a>
-
-<h1 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h1><p>一直很羡慕坚持写独立博客的人，2011年在中科院四川山地研究所忠县站实习的时候，几个大男人除了做实验就是玩电脑，又没有什么相同的游戏爱好，闲的实在蛋疼开始捣鼓博客，一通百度以后以后选定了<code>Micolog</code>，托管在<code>GAE</code>上面。奈何专业与之牛马不相及，瞎捣鼓一通也没什么成绩，写了几篇不痛不痒的文章后就放弃了，当然Google也被墙了。<br>后来，国内有了<code>SAE</code>、<code>BAE</code>，最开始都打着免费的旗号吸引小白，捣鼓了一通搞了个<code>WordPress</code>，当时觉得就特牛逼了，然而并没有什么卵用，懒的天性又一次打败了我，在写了几篇文章后就放在那里长草了。期间国内微博开始流行起来，碎片化的写作方式代替了耗时耗力的博客运营，我也像墙头草一样倒向了潮流，微博数量也码上了千条。再后来工作以后，各种事物烦杂，逐渐就放弃了每天记录的习惯。<br>近来工作繁忙，经常需要做备忘，就下载了印象笔记做记录，坚持一段时间竟怀恋起以前记录生活的感觉，遂着手寻找合适的独立博客平台。</p>
-<h2 id="博客平台的思考"><a href="#博客平台的思考" class="headerlink" title="博客平台的思考"></a>博客平台的思考</h2><p>对照记录生活的初衷，又要避免以前半途而废的悲剧，总结了以下几点需求：</p>
-<ul>
-<li>平台功能简单，能记录即可；</li>
-<li>数据能够备份，最好能够实时同步；</li>
-<li>多平台记录，方便随时更新。</li>
-</ul>
-<p>经过一番考察，最后选定了以前接触过的<code>Farbox</code>，倒腾了几天    Clone了一套自己心仪的主题，绑定了微信公众<del>好</del>号，翻墙绑定了<code>Dropbox</code>同步，独立域名什么的就放弃了，也基本上达到了我对于博客的需求。在此感谢<a href="http://farbox.com/">平台</a>作者和<a href="http://www.sunnyyoung.net/">主题移植者</a>。</p>
-<h1 id="Flag"><a href="#Flag" class="headerlink" title="Flag"></a>Flag</h1><p>又开始回归记录生活，不想立下任何的Flag，不定期的记录下工作中的想法、日常的影像、折腾的过程就好。<br>爱上了Markdown语言，决定以后都用它了。</p>
-<hr>
-<p>——夔州苍云<br>2016年6月19日于青龙</p>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>探秘巫溪烤鱼</title>
-    <url>/2016/09/01/%E6%8E%A2%E7%A7%98%E5%B7%AB%E6%BA%AA%E7%83%A4%E9%B1%BC/</url>
-    <content><![CDATA[<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166885180926281.jpg" alt="6325166885180926281"></p>
-<a id="more"></a>
-
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166889475893578.jpg" alt="6325166889475893578"></p>
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166893770860876.jpg" alt="6325166893770860876"></p>
-]]></content>
-      <categories>
-        <category>摄影</category>
-        <category>美食</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-        <tag>美食</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>花海芳踪</title>
-    <url>/2016/08/13/%E8%8A%B1%E6%B5%B7%E8%8A%B3%E8%B8%AA/</url>
+    <url>/2016/08/13/b7b47068a49f/</url>
     <content><![CDATA[<p>老婆特别喜欢拍照，这次同行有专业人士代劳，我也乐得清闲。<code>P9Leica</code>效果虽然不错，但是单反的画质明显更加细腻。</p>
 <p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246726499426198.jpg" alt="6318246726499426198"></p>
 <a id="more"></a>
@@ -204,7 +204,7 @@
   </entry>
   <entry>
     <title>读书笔记——《北京折叠》</title>
-    <url>/2016/08/22/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94%E3%80%8A%E5%8C%97%E4%BA%AC%E6%8A%98%E5%8F%A0%E3%80%8B/</url>
+    <url>/2016/08/22/f8bb51db2a0c/</url>
     <content><![CDATA[<h1 id="从《三体》说起"><a href="#从《三体》说起" class="headerlink" title="从《三体》说起"></a>从《三体》说起</h1><p>一直钟爱科幻小说，接触的大多数是国外的作品。可能由于门槛太高，又不能很快实现经济价值，国内科幻小说一直缺乏有诚意的作品，大刘的《三体》是个例外。</p>
  <a id="more"></a>
 
@@ -223,29 +223,8 @@
       </tags>
   </entry>
   <entry>
-    <title>青涩年华</title>
-    <url>/2016/08/14/%E9%9D%92%E6%B6%A9%E5%B9%B4%E5%8D%8E/</url>
-    <content><![CDATA[<p>小妹比我小十岁，从小看着她成长，性格符合家族特色——内敛，在镜头前显示出青春期特有的青涩。来年就要参加高考了，希望她能够在最美好的年华里收获丰硕的果实。</p>
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491178858045400.jpg" alt="6318491178858045400"></p>
-<a id="more"></a>
-
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491140203339735.jpg" alt="6318491140203339735"></p>
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491226102685660.jpg" alt="6318491226102685660"></p>
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491101548634069.jpg" alt="6318491101548634069"></p>
-<hr>
-<p>——摄于重庆市巫溪县红池坝风景区<br>2016年8月6日</p>
-]]></content>
-      <categories>
-        <category>摄影</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-        <tag>Family</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>读书笔记——《看见》</title>
-    <url>/2013/03/11/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94%E3%80%8A%E7%9C%8B%E8%A7%81%E3%80%8B/</url>
+    <url>/2013/03/11/f2dd62a49794/</url>
     <content><![CDATA[<p>拖拖拉拉三个月才看完柴姑娘的新书。<br>书刚到的时候把楚娴寄来的贺卡夹在书里做书签，上面写上:</p>
 <blockquote class="blockquote-center">
             <i class="fa fa-quote-left"></i>
@@ -270,8 +249,29 @@
       </tags>
   </entry>
   <entry>
+    <title>青涩年华</title>
+    <url>/2016/08/14/678c027a944a/</url>
+    <content><![CDATA[<p>小妹比我小十岁，从小看着她成长，性格符合家族特色——内敛，在镜头前显示出青春期特有的青涩。来年就要参加高考了，希望她能够在最美好的年华里收获丰硕的果实。</p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491178858045400.jpg" alt="6318491178858045400"></p>
+<a id="more"></a>
+
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491140203339735.jpg" alt="6318491140203339735"></p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491226102685660.jpg" alt="6318491226102685660"></p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491101548634069.jpg" alt="6318491101548634069"></p>
+<hr>
+<p>——摄于重庆市巫溪县红池坝风景区<br>2016年8月6日</p>
+]]></content>
+      <categories>
+        <category>摄影</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>Family</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Gitee平台Hexo博客搭建笔记</title>
-    <url>/2020/08/25/Gitee%E5%B9%B3%E5%8F%B0Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</url>
+    <url>/2020/08/25/c743d3b22119/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一直以来都在尝试各种博客平台，WordPress、Farbox、Typecho……</p>
 <p>但是最后都败在了服务器、备案等等各种繁琐事情上。</p>
 <p>最近发现Gitee也有GitHub类似的Pages功能，故各种攻略，尝试在Gitee上搭建Hexo博客。</p>
