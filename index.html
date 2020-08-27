@@ -204,6 +204,181 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://kzcy.gitee.io/2020/08/27/20bc1cc603ce/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="夔州苍云">
+      <meta itemprop="description" content="迷失的人迷失了，相逢的人会再相逢">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="苍云碎语">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/08/27/20bc1cc603ce/" class="post-title-link" itemprop="url">Gitee+PicGo图床搭建笔记</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-08-27 17:10:15 / 修改时间：17:22:06" itemprop="dateCreated datePublished" datetime="2020-08-27T17:10:15+08:00">2020-08-27</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">技术</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/%E5%A4%87%E5%BF%98/" itemprop="url" rel="index"><span itemprop="name">备忘</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/2020/08/27/20bc1cc603ce/" class="post-meta-item leancloud_visitors" data-flag-title="Gitee+PicGo图床搭建笔记" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/08/27/20bc1cc603ce/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/08/27/20bc1cc603ce/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>927</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <div class="note info">
+            <p>图床是干什么的？图床一般是指储存图片的服务器。<br>设置图床之后，在博客中插入的图片链接就可以随时在线预览。</p>
+          </div>
+
+<p>神奇的PicGo就是为了解决这个问题诞生的，它可以将图片上传到指定的图床上，然后返回markdown链接，直接粘贴到你的文档中。</p>
+<p>目前国内环境，使用PicGo +  <a target="_blank" rel="noopener" href="https://links.jianshu.com/go?to=https://gitee/com">码云</a>来实现markdown图床，既可以白嫖，又方便快捷，可以说得上是最优解。</p>
+<h2 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h2><ul>
+<li><p>图库上传管理软件：<a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases">PicGo</a></p>
+<p>包括<code>picgo-plugin-gitee-uploader</code>插件</p>
+</li>
+<li><p>MarkDown编辑软件：<a target="_blank" rel="noopener" href="https://www.typora.io/">Typora</a></p>
+</li>
+</ul>
+<h3 id="PicGo安装"><a href="#PicGo安装" class="headerlink" title="PicGo安装"></a>PicGo安装</h3><img src="https://gitee.com/kzcy/pic/raw/master/img/82714.png" alt="软件界面" style="zoom:80%;" />
+
+<h3 id="插件安装"><a href="#插件安装" class="headerlink" title="插件安装"></a>插件安装</h3><p>选择最底下的<code>插件设置</code>，搜索<strong>gitee</strong>，安装第二个插件<code>gitee-uploader1.xxx</code>。</p>
+<img src="https://gitee.com/kzcy/pic/raw/master/img/82708.png" alt="软件界面" style="zoom:80%;" />
+
+<blockquote>
+<p>这里注意一下，必须要先安装<a target="_blank" rel="noopener" href="https://links.jianshu.com/go?to=https://nodejs.org/en/">node.js</a>才能安装插件。</p>
+</blockquote>
+<h2 id="建立码云仓库"><a href="#建立码云仓库" class="headerlink" title="建立码云仓库"></a>建立<a target="_blank" rel="noopener" href="https://gitee.com/">码云</a>仓库</h2><h3 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h3><p>点击右上角的<code>+</code>号，新建仓库。</p>
+<img src="https://gitee.com/kzcy/pic/raw/master/img/82706.png" alt="新建仓库" style="zoom:100%;" />
+
+<p><strong>新建仓库的要点如下：</strong></p>
+<ol>
+<li><p>输入一个仓库名称；</p>
+</li>
+<li><p>其次将仓库设为公开；</p>
+</li>
+<li><p>勾选使用Readme文件初始化这个仓库。</p>
+<img src="https://gitee.com/kzcy/pic/raw/master/img/82701.png" alt="盗图一张" style="zoom:100%;" />
+
+</li>
+</ol>
+<p>点击创建即完成仓库创建。</p>
+<h3 id="获取token"><a href="#获取token" class="headerlink" title="获取token"></a>获取token</h3><p>登录码云账号，点击头像进入<code>设置</code>，找到<code>私人令牌</code>，点击<code>生成新令牌</code>，把<code>projects</code>这一项勾上，其他的不用勾，然后<code>提交</code>。</p>
+<img src="https://gitee.com/kzcy/pic/raw/master/img/82709.png" alt="私人令牌" style="zoom:100%;" />
+
+
+
+<p>验证密码之后会出来一串数字，这一串数字就是你的token<strong>（不能泄露，否者别人也可以操作你的数据）</strong>，后面设置会用到。</p>
+<div class="note warning">
+            <p>注意：这个令牌只会明文显示一次，建议在配置插件的时候再来生成令牌，直接复制进去，搞丢了又要重新生成一个。</p>
+          </div>
+
+<h2 id="PicGo调教"><a href="#PicGo调教" class="headerlink" title="PicGo调教"></a>PicGo调教</h2><h3 id="插件配置"><a href="#插件配置" class="headerlink" title="插件配置"></a>插件配置</h3><p>选择<code>图库设置</code>里的<code>gitee</code>选项<strong>（没有安装插件前，没有此选项）</strong>。</p>
+<p><strong>配置要点：</strong></p>
+<ul>
+<li><p>repo：用户名/仓库名称<em>（仓库地址后面那一段）；</em></p>
+</li>
+<li><p>branch：分支，填写master；</p>
+</li>
+<li><p>token：填入前面获取的<code>私人令牌</code>；</p>
+</li>
+<li><p>path：路径，一般填写img；</p>
+</li>
+<li><p>customPath：提交消息，可不填；</p>
+</li>
+<li><p>customURL：自定义地址，可不填。</p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/image-20200827165059954.png" alt="image-20200827165059954"></p>
+</li>
+</ul>
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a><strong>测试</strong></h3><p>随便选一张图片上传，上传之后默认复制链接到粘贴板。</p>
+<h2 id="PicGo-Typora"><a href="#PicGo-Typora" class="headerlink" title="PicGo+Typora"></a>PicGo+Typora</h2><p>MarkDown写作软件很多，但是Typora是兼具功能与颜值的软件之一（也可能是唯一），而且支持实时预览。</p>
+<p><strong>PicGo+Typora</strong>支持图片<code>拖曳/粘贴</code>上传到服务器，解决了MarkDown写作图片插入的难题，非常实用。</p>
+<p>配置上，打开Typora<code>设置</code>，在<code>图像</code>便签，按照下面设置即可：</p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/image-20200827170417361.png" alt="image-20200827170417361"></p>
+<p><strong>Enjoy！</strong></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://kzcy.gitee.io/2020/08/25/c743d3b22119/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -482,7 +657,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-08-14 10:32:07" itemprop="dateModified" datetime="2020-08-14T10:32:07+08:00">2020-08-14</time>
+                <time title="修改时间：2020-08-27 17:23:09" itemprop="dateModified" datetime="2020-08-27T17:23:09+08:00">2020-08-27</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -544,7 +719,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166885180926281.jpg" alt="6325166885180926281"></p>
+          <p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166885180926281.jpg" alt="探秘巫溪烤鱼"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2016/09/01/ce6798c4a9bc/#more" rel="contents">
@@ -838,7 +1013,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-08-25 15:41:59" itemprop="dateModified" datetime="2020-08-25T15:41:59+08:00">2020-08-25</time>
+                <time title="修改时间：2020-08-27 17:22:56" itemprop="dateModified" datetime="2020-08-27T17:22:56+08:00">2020-08-27</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -897,7 +1072,7 @@
 
       
           <p>小妹比我小十岁，从小看着她成长，性格符合家族特色——内敛，在镜头前显示出青春期特有的青涩。来年就要参加高考了，希望她能够在最美好的年华里收获丰硕的果实。</p>
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491178858045400.jpg" alt="6318491178858045400"></p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491178858045400.jpg" alt="青涩年华"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2016/08/14/678c027a944a/#more" rel="contents">
@@ -955,7 +1130,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-08-25 15:41:44" itemprop="dateModified" datetime="2020-08-25T15:41:44+08:00">2020-08-25</time>
+                <time title="修改时间：2020-08-27 17:22:39" itemprop="dateModified" datetime="2020-08-27T17:22:39+08:00">2020-08-27</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -1014,7 +1189,7 @@
 
       
           <p>老婆特别喜欢拍照，这次同行有专业人士代劳，我也乐得清闲。<code>P9Leica</code>效果虽然不错，但是单反的画质明显更加细腻。</p>
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246726499426198.jpg" alt="6318246726499426198"></p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246726499426198.jpg" alt="花海芳踪"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2016/08/13/b7b47068a49f/#more" rel="contents">
@@ -1231,7 +1406,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1306,7 +1481,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">37 分钟</span>
+    <span title="站点阅读时长">38 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
   </div>

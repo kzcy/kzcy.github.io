@@ -6,7 +6,7 @@
   <link href="https://kzcy.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://kzcy.gitee.io/"/>
-  <updated>2020-08-25T07:46:51.759Z</updated>
+  <updated>2020-08-27T09:22:06.305Z</updated>
   <id>https://kzcy.gitee.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Gitee+PicGo图床搭建笔记</title>
+    <link href="https://kzcy.gitee.io/2020/08/27/20bc1cc603ce/"/>
+    <id>https://kzcy.gitee.io/2020/08/27/20bc1cc603ce/</id>
+    <published>2020-08-27T09:10:15.000Z</published>
+    <updated>2020-08-27T09:22:06.305Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info">            <p>图床是干什么的？图床一般是指储存图片的服务器。<br>设置图床之后，在博客中插入的图片链接就可以随时在线预览。</p>          </div><p>神奇的PicGo就是为了解决这个问题诞生的，它可以将图片上传到指定的图床上，然后返回markdown链接，直接粘贴到你的文档中。</p><p>目前国内环境，使用PicGo +  <a href="https://links.jianshu.com/go?to=https://gitee/com">码云</a>来实现markdown图床，既可以白嫖，又方便快捷，可以说得上是最优解。</p><h2 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h2><ul><li><p>图库上传管理软件：<a href="https://github.com/Molunerfinn/PicGo/releases">PicGo</a></p><p>包括<code>picgo-plugin-gitee-uploader</code>插件</p></li><li><p>MarkDown编辑软件：<a href="https://www.typora.io/">Typora</a></p></li></ul><h3 id="PicGo安装"><a href="#PicGo安装" class="headerlink" title="PicGo安装"></a>PicGo安装</h3><img src="https://gitee.com/kzcy/pic/raw/master/img/82714.png" alt="软件界面" style="zoom:80%;" /><h3 id="插件安装"><a href="#插件安装" class="headerlink" title="插件安装"></a>插件安装</h3><p>选择最底下的<code>插件设置</code>，搜索<strong>gitee</strong>，安装第二个插件<code>gitee-uploader1.xxx</code>。</p><img src="https://gitee.com/kzcy/pic/raw/master/img/82708.png" alt="软件界面" style="zoom:80%;" /><blockquote><p>这里注意一下，必须要先安装<a href="https://links.jianshu.com/go?to=https://nodejs.org/en/">node.js</a>才能安装插件。</p></blockquote><h2 id="建立码云仓库"><a href="#建立码云仓库" class="headerlink" title="建立码云仓库"></a>建立<a href="https://gitee.com/">码云</a>仓库</h2><h3 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h3><p>点击右上角的<code>+</code>号，新建仓库。</p><img src="https://gitee.com/kzcy/pic/raw/master/img/82706.png" alt="新建仓库" style="zoom:100%;" /><p><strong>新建仓库的要点如下：</strong></p><ol><li><p>输入一个仓库名称；</p></li><li><p>其次将仓库设为公开；</p></li><li><p>勾选使用Readme文件初始化这个仓库。</p><img src="https://gitee.com/kzcy/pic/raw/master/img/82701.png" alt="盗图一张" style="zoom:100%;" /></li></ol><p>点击创建即完成仓库创建。</p><h3 id="获取token"><a href="#获取token" class="headerlink" title="获取token"></a>获取token</h3><p>登录码云账号，点击头像进入<code>设置</code>，找到<code>私人令牌</code>，点击<code>生成新令牌</code>，把<code>projects</code>这一项勾上，其他的不用勾，然后<code>提交</code>。</p><img src="https://gitee.com/kzcy/pic/raw/master/img/82709.png" alt="私人令牌" style="zoom:100%;" /><p>验证密码之后会出来一串数字，这一串数字就是你的token<strong>（不能泄露，否者别人也可以操作你的数据）</strong>，后面设置会用到。</p><div class="note warning">            <p>注意：这个令牌只会明文显示一次，建议在配置插件的时候再来生成令牌，直接复制进去，搞丢了又要重新生成一个。</p>          </div><h2 id="PicGo调教"><a href="#PicGo调教" class="headerlink" title="PicGo调教"></a>PicGo调教</h2><h3 id="插件配置"><a href="#插件配置" class="headerlink" title="插件配置"></a>插件配置</h3><p>选择<code>图库设置</code>里的<code>gitee</code>选项<strong>（没有安装插件前，没有此选项）</strong>。</p><p><strong>配置要点：</strong></p><ul><li><p>repo：用户名/仓库名称<em>（仓库地址后面那一段）；</em></p></li><li><p>branch：分支，填写master；</p></li><li><p>token：填入前面获取的<code>私人令牌</code>；</p></li><li><p>path：路径，一般填写img；</p></li><li><p>customPath：提交消息，可不填；</p></li><li><p>customURL：自定义地址，可不填。</p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/image-20200827165059954.png" alt="image-20200827165059954"></p></li></ul><h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a><strong>测试</strong></h3><p>随便选一张图片上传，上传之后默认复制链接到粘贴板。</p><h2 id="PicGo-Typora"><a href="#PicGo-Typora" class="headerlink" title="PicGo+Typora"></a>PicGo+Typora</h2><p>MarkDown写作软件很多，但是Typora是兼具功能与颜值的软件之一（也可能是唯一），而且支持实时预览。</p><p><strong>PicGo+Typora</strong>支持图片<code>拖曳/粘贴</code>上传到服务器，解决了MarkDown写作图片插入的难题，非常实用。</p><p>配置上，打开Typora<code>设置</code>，在<code>图像</code>便签，按照下面设置即可：</p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/image-20200827170417361.png" alt="image-20200827170417361"></p><p><strong>Enjoy！</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note info&quot;&gt;
+            &lt;p&gt;图床是干什么的？图床一般是指储存图片的服务器。&lt;br&gt;设置图床之后，在博客中插入的图片链接就可以随时在线预览。&lt;/p&gt;
+          &lt;/div&gt;
+
+&lt;p&gt;神奇的PicGo就是为了解决这个问题诞生</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="https://kzcy.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="备忘" scheme="https://kzcy.gitee.io/categories/%E6%8A%80%E6%9C%AF/%E5%A4%87%E5%BF%98/"/>
+    
+    
+    <category term="技术" scheme="https://kzcy.gitee.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>Gitee平台Hexo博客搭建笔记</title>
@@ -45,9 +75,9 @@
     <category term="笔记" scheme="https://kzcy.gitee.io/categories/%E6%8A%80%E6%9C%AF/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Hexo" scheme="https://kzcy.gitee.io/tags/Hexo/"/>
-    
     <category term="技术" scheme="https://kzcy.gitee.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Hexo" scheme="https://kzcy.gitee.io/tags/Hexo/"/>
     
     <category term="Gitee" scheme="https://kzcy.gitee.io/tags/Gitee/"/>
     
@@ -88,12 +118,12 @@
     <link href="https://kzcy.gitee.io/2016/09/01/ce6798c4a9bc/"/>
     <id>https://kzcy.gitee.io/2016/09/01/ce6798c4a9bc/</id>
     <published>2016-09-01T08:00:00.000Z</published>
-    <updated>2020-08-14T02:32:07.800Z</updated>
+    <updated>2020-08-27T09:23:09.043Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166885180926281.jpg" alt="6325166885180926281"></p><a id="more"></a><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166889475893578.jpg" alt="6325166889475893578"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166893770860876.jpg" alt="6325166893770860876"></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166885180926281.jpg" alt="探秘巫溪烤鱼"></p><a id="more"></a><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166889475893578.jpg" alt="探秘巫溪烤鱼"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166893770860876.jpg" alt="探秘巫溪烤鱼"></p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://gitee.com/kzcy/pic/raw/master/img/6325166885180926281.jpg&quot; alt=&quot;6325166885180926281&quot;&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://gitee.com/kzcy/pic/raw/master/img/6325166885180926281.jpg&quot; alt=&quot;探秘巫溪烤鱼&quot;&gt;&lt;/p&gt;</summary>
     
     
     
@@ -157,13 +187,13 @@
     <link href="https://kzcy.gitee.io/2016/08/14/678c027a944a/"/>
     <id>https://kzcy.gitee.io/2016/08/14/678c027a944a/</id>
     <published>2016-08-14T09:45:00.000Z</published>
-    <updated>2020-08-25T07:41:59.866Z</updated>
+    <updated>2020-08-27T09:22:56.008Z</updated>
     
-    <content type="html"><![CDATA[<p>小妹比我小十岁，从小看着她成长，性格符合家族特色——内敛，在镜头前显示出青春期特有的青涩。来年就要参加高考了，希望她能够在最美好的年华里收获丰硕的果实。</p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491178858045400.jpg" alt="6318491178858045400"></p><a id="more"></a><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491140203339735.jpg" alt="6318491140203339735"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491226102685660.jpg" alt="6318491226102685660"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491101548634069.jpg" alt="6318491101548634069"></p><hr><p>——摄于重庆市巫溪县红池坝风景区<br>2016年8月6日</p>]]></content>
+    <content type="html"><![CDATA[<p>小妹比我小十岁，从小看着她成长，性格符合家族特色——内敛，在镜头前显示出青春期特有的青涩。来年就要参加高考了，希望她能够在最美好的年华里收获丰硕的果实。</p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491178858045400.jpg" alt="青涩年华"></p><a id="more"></a><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491140203339735.jpg" alt="青涩年华"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491226102685660.jpg" alt="青涩年华"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318491101548634069.jpg" alt="青涩年华"></p><hr><p>——摄于重庆市巫溪县红池坝风景区<br>2016年8月6日</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;小妹比我小十岁，从小看着她成长，性格符合家族特色——内敛，在镜头前显示出青春期特有的青涩。来年就要参加高考了，希望她能够在最美好的年华里收获丰硕的果实。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://gitee.com/kzcy/pic/raw/master/img/6318491178858045400.jpg&quot; alt=&quot;6318491178858045400&quot;&gt;&lt;/p&gt;</summary>
+&lt;p&gt;&lt;img src=&quot;https://gitee.com/kzcy/pic/raw/master/img/6318491178858045400.jpg&quot; alt=&quot;青涩年华&quot;&gt;&lt;/p&gt;</summary>
     
     
     
@@ -181,13 +211,13 @@
     <link href="https://kzcy.gitee.io/2016/08/13/b7b47068a49f/"/>
     <id>https://kzcy.gitee.io/2016/08/13/b7b47068a49f/</id>
     <published>2016-08-13T09:45:00.000Z</published>
-    <updated>2020-08-25T07:41:44.798Z</updated>
+    <updated>2020-08-27T09:22:39.946Z</updated>
     
-    <content type="html"><![CDATA[<p>老婆特别喜欢拍照，这次同行有专业人士代劳，我也乐得清闲。<code>P9Leica</code>效果虽然不错，但是单反的画质明显更加细腻。</p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246726499426198.jpg" alt="6318246726499426198"></p><a id="more"></a><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246726499426199.jpg" alt="6318246726499426199"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246730794393497.jpg" alt="6318246730794393497"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246735089360795.jpg" alt="6318246735089360795"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246739384328093.jpg" alt="6318246739384328093"></p><hr><p>——摄于重庆市巫溪县红池坝风景区<br>2016年8月6日</p>]]></content>
+    <content type="html"><![CDATA[<p>老婆特别喜欢拍照，这次同行有专业人士代劳，我也乐得清闲。<code>P9Leica</code>效果虽然不错，但是单反的画质明显更加细腻。</p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246726499426198.jpg" alt="花海芳踪"></p><a id="more"></a><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246726499426199.jpg" alt="花海芳踪"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246730794393497.jpg" alt="花海芳踪"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246735089360795.jpg" alt="花海芳踪"></p><p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246739384328093.jpg" alt="花海芳踪"></p><hr><p>——摄于重庆市巫溪县红池坝风景区<br>2016年8月6日</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;老婆特别喜欢拍照，这次同行有专业人士代劳，我也乐得清闲。&lt;code&gt;P9Leica&lt;/code&gt;效果虽然不错，但是单反的画质明显更加细腻。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://gitee.com/kzcy/pic/raw/master/img/6318246726499426198.jpg&quot; alt=&quot;6318246726499426198&quot;&gt;&lt;/p&gt;</summary>
+&lt;p&gt;&lt;img src=&quot;https://gitee.com/kzcy/pic/raw/master/img/6318246726499426198.jpg&quot; alt=&quot;花海芳踪&quot;&gt;&lt;/p&gt;</summary>
     
     
     
