@@ -9,6 +9,8 @@
 
 <p>神奇的PicGo就是为了解决这个问题诞生的，它可以将图片上传到指定的图床上，然后返回markdown链接，直接粘贴到你的文档中。</p>
 <p>目前国内环境，使用PicGo +  <a href="https://links.jianshu.com/go?to=https://gitee/com">码云</a>来实现markdown图床，既可以白嫖，又方便快捷，可以说得上是最优解。</p>
+<a id="more"></a>
+
 <h2 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h2><ul>
 <li><p>图库上传管理软件：<a href="https://github.com/Molunerfinn/PicGo/releases">PicGo</a></p>
 <p>包括<code>picgo-plugin-gitee-uploader</code>插件</p>
@@ -79,6 +81,9 @@
       </categories>
       <tags>
         <tag>技术</tag>
+        <tag>Gitee</tag>
+        <tag>Markdown</tag>
+        <tag>Typora</tag>
       </tags>
   </entry>
   <entry>
@@ -472,8 +477,8 @@
       </categories>
       <tags>
         <tag>技术</tag>
-        <tag>Hexo</tag>
         <tag>Gitee</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
