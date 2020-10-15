@@ -94,49 +94,6 @@
       </tags>
   </entry>
   <entry>
-    <title>探秘巫溪烤鱼</title>
-    <url>/2016/09/01/ce6798c4a9bc/</url>
-    <content><![CDATA[<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166885180926281.jpg" alt="探秘巫溪烤鱼"></p>
-<a id="more"></a>
-
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166889475893578.jpg" alt="探秘巫溪烤鱼"></p>
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166893770860876.jpg" alt="探秘巫溪烤鱼"></p>
-]]></content>
-      <categories>
-        <category>摄影</category>
-        <category>美食</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-        <tag>美食</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我与“博客”的故事</title>
-    <url>/2016/08/19/e16e756b9e8c/</url>
-    <content><![CDATA[<h1 id="关于懒"><a href="#关于懒" class="headerlink" title="关于懒"></a>关于懒</h1><p>鄙人向来都乐于承认懒的天性，周末懒得出去玩，不重要的事情懒得记，甚至有的事情都懒得想。兴趣爱好<del>也可以</del>说得上广泛，特别是科技方面，各种新奇事物都想<del>第一个</del>尝试，但经常是三分钟的热情，新鲜劲一过就放弃了。唯一坚持比较久的事情是学生时代写日记的习惯，足足写了数十本，但很多都已在数次搬家中遗失。</p>
- <a id="more"></a>
-
-<h1 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h1><p>一直很羡慕坚持写独立博客的人，2011年在中科院四川山地研究所忠县站实习的时候，几个大男人除了做实验就是玩电脑，又没有什么相同的游戏爱好，闲的实在蛋疼开始捣鼓博客，一通百度以后以后选定了<code>Micolog</code>，托管在<code>GAE</code>上面。奈何专业与之牛马不相及，瞎捣鼓一通也没什么成绩，写了几篇不痛不痒的文章后就放弃了，当然Google也被墙了。<br>后来，国内有了<code>SAE</code>、<code>BAE</code>，最开始都打着免费的旗号吸引小白，捣鼓了一通搞了个<code>WordPress</code>，当时觉得就特牛逼了，然而并没有什么卵用，懒的天性又一次打败了我，在写了几篇文章后就放在那里长草了。期间国内微博开始流行起来，碎片化的写作方式代替了耗时耗力的博客运营，我也像墙头草一样倒向了潮流，微博数量也码上了千条。再后来工作以后，各种事物烦杂，逐渐就放弃了每天记录的习惯。<br>近来工作繁忙，经常需要做备忘，就下载了印象笔记做记录，坚持一段时间竟怀恋起以前记录生活的感觉，遂着手寻找合适的独立博客平台。</p>
-<h2 id="博客平台的思考"><a href="#博客平台的思考" class="headerlink" title="博客平台的思考"></a>博客平台的思考</h2><p>对照记录生活的初衷，又要避免以前半途而废的悲剧，总结了以下几点需求：</p>
-<ul>
-<li>平台功能简单，能记录即可；</li>
-<li>数据能够备份，最好能够实时同步；</li>
-<li>多平台记录，方便随时更新。</li>
-</ul>
-<p>经过一番考察，最后选定了以前接触过的<code>Farbox</code>，倒腾了几天    Clone了一套自己心仪的主题，绑定了微信公众<del>好</del>号，翻墙绑定了<code>Dropbox</code>同步，独立域名什么的就放弃了，也基本上达到了我对于博客的需求。在此感谢<a href="http://farbox.com/">平台</a>作者和<a href="http://www.sunnyyoung.net/">主题移植者</a>。</p>
-<h1 id="Flag"><a href="#Flag" class="headerlink" title="Flag"></a>Flag</h1><p>又开始回归记录生活，不想立下任何的Flag，不定期的记录下工作中的想法、日常的影像、折腾的过程就好。<br>爱上了Markdown语言，决定以后都用它了。</p>
-<hr>
-<p>——夔州苍云<br>2016年6月19日于青龙</p>
-]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo下Markdown的使用</title>
     <url>/2020/08/12/e22a0751302a/</url>
     <content><![CDATA[<h2 id="一、创建文章"><a href="#一、创建文章" class="headerlink" title="一、创建文章"></a><strong>一、创建文章</strong></h2><p>在站点文件夹中打开 git bash，输入如下命令创建文章，其中 <code>title</code> 为文章的标题</p>
@@ -274,29 +231,79 @@
       </tags>
   </entry>
   <entry>
-    <title>读书笔记——《看见》</title>
-    <url>/2013/03/11/f2dd62a49794/</url>
-    <content><![CDATA[<p>拖拖拉拉三个月才看完柴姑娘的新书。<br>书刚到的时候把楚娴寄来的贺卡夹在书里做书签，上面写上:</p>
-<blockquote class="blockquote-center">
-            <i class="fa fa-quote-left"></i>
-            <p>你站在桥上看风景<br>看风景的人在楼上看你<br><strong>卞之琳</strong></p>
+    <title>Test</title>
+    <url>/2020/10/15/3cbf6387e04c/</url>
+    <content><![CDATA[<h2 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h2>]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我与“博客”的故事</title>
+    <url>/2016/08/19/e16e756b9e8c/</url>
+    <content><![CDATA[<h1 id="关于懒"><a href="#关于懒" class="headerlink" title="关于懒"></a>关于懒</h1><p>鄙人向来都乐于承认懒的天性，周末懒得出去玩，不重要的事情懒得记，甚至有的事情都懒得想。兴趣爱好<del>也可以</del>说得上广泛，特别是科技方面，各种新奇事物都想<del>第一个</del>尝试，但经常是三分钟的热情，新鲜劲一过就放弃了。唯一坚持比较久的事情是学生时代写日记的习惯，足足写了数十本，但很多都已在数次搬家中遗失。</p>
+ <a id="more"></a>
 
-            <i class="fa fa-quote-right"></i>
-          </blockquote>
-
-<a id="more"></a>
-
-<p>注明开始看书之日2013.1.1，卡片是类似即拍即得的巴黎埃菲尔铁塔。在《看见》里，柴姑娘写到刚到央视的时候，陈虻批评她“<code>娇弱造作，不可忍受</code>” <a href="%E3%80%8A%E7%9C%8B%E8%A7%81%E3%80%8Bpage11">^1</a>。想到当初在书签上写那诗的心情，确实可以配上矫揉造作的标签。难道这是年轻的通病？<br>如果可以像鲁迅先生讲的那样在书本的字里行间读出其他，那么我在柴姑娘的书里面读出来的就是反省，在自己不断的反省中进步。我很认同这个观点，我觉得人总是在不断的总结中反省，反省中修正，修正中完善。当然，我们不可能成为完美的人，因为那是不存在的。但是，我们可以在不断的完善中达到自己更好的状态，直到我们停止总结。<br>年轻的时候狂妄甚至自大，特别是在这样的年纪。刚刚经历了大学里或许是最为辉煌的岁月，突然被流放到各种各样的环境中。适应是一个痛苦的过程，周围的人会不断的告诉你该这样该那样，那样不行这样不行。开始的倔强会换来摇头叹息，还是太年轻，不撞南墙怎么会回头呢？慢慢的，接受了世界的规则，会慢慢修正自己变成他们中的一员。只是我想：我不会对后来的同志说同样的话，我会对他们说“<code>按照你想的去做就好了</code>”。“<code>你去告诉别人应该怎么样，这就是错的方式</code>”[^2]。<br>古人云：“<code>读万卷书，行万里路</code>”，高晓松老师说此话已经不再适用于当今的社会，应该倒过来说“<code>行万里路，读万卷书</code>”[^3]，故纸堆里读来的东西远远没有自身感受有用。高老师的意思是书随时都可以读，但是行路需要体力，应该放在年轻的时候。对于我这个天性向往自由又自我压抑的人来说，这应该就是我所追求的生活。而目前的情况确实是把我困住了，我曾经反问自己是什么把我困住动弹不得？苦思良久未有结论，有待于检验的结果是：<code>理性的羁绊和选择的责任</code>。对于我这样一个天性慵懒的人来说，选择无异于是一个巨大的痛苦，我不知道自己想要的，所以不能知道选择的正确与否。目前来说，我明确的知道自己不想要的，而没有与之相悖，所以这是我认为正确的选择。我也必将承担这理性的羁绊和选择的责任。既然目前不能行万里路，那么先读万卷书吧。</p>
-<p>Peter.潘于青龙<br>2013年3月11日</p>
+<h1 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h1><p>一直很羡慕坚持写独立博客的人，2011年在中科院四川山地研究所忠县站实习的时候，几个大男人除了做实验就是玩电脑，又没有什么相同的游戏爱好，闲的实在蛋疼开始捣鼓博客，一通百度以后以后选定了<code>Micolog</code>，托管在<code>GAE</code>上面。奈何专业与之牛马不相及，瞎捣鼓一通也没什么成绩，写了几篇不痛不痒的文章后就放弃了，当然Google也被墙了。<br>后来，国内有了<code>SAE</code>、<code>BAE</code>，最开始都打着免费的旗号吸引小白，捣鼓了一通搞了个<code>WordPress</code>，当时觉得就特牛逼了，然而并没有什么卵用，懒的天性又一次打败了我，在写了几篇文章后就放在那里长草了。期间国内微博开始流行起来，碎片化的写作方式代替了耗时耗力的博客运营，我也像墙头草一样倒向了潮流，微博数量也码上了千条。再后来工作以后，各种事物烦杂，逐渐就放弃了每天记录的习惯。<br>近来工作繁忙，经常需要做备忘，就下载了印象笔记做记录，坚持一段时间竟怀恋起以前记录生活的感觉，遂着手寻找合适的独立博客平台。</p>
+<h2 id="博客平台的思考"><a href="#博客平台的思考" class="headerlink" title="博客平台的思考"></a>博客平台的思考</h2><p>对照记录生活的初衷，又要避免以前半途而废的悲剧，总结了以下几点需求：</p>
+<ul>
+<li>平台功能简单，能记录即可；</li>
+<li>数据能够备份，最好能够实时同步；</li>
+<li>多平台记录，方便随时更新。</li>
+</ul>
+<p>经过一番考察，最后选定了以前接触过的<code>Farbox</code>，倒腾了几天    Clone了一套自己心仪的主题，绑定了微信公众<del>好</del>号，翻墙绑定了<code>Dropbox</code>同步，独立域名什么的就放弃了，也基本上达到了我对于博客的需求。在此感谢<a href="http://farbox.com/">平台</a>作者和<a href="http://www.sunnyyoung.net/">主题移植者</a>。</p>
+<h1 id="Flag"><a href="#Flag" class="headerlink" title="Flag"></a>Flag</h1><p>又开始回归记录生活，不想立下任何的Flag，不定期的记录下工作中的想法、日常的影像、折腾的过程就好。<br>爱上了Markdown语言，决定以后都用它了。</p>
 <hr>
-<p>[^2]: 《看见》page 376<br>[^3]: 《晓说》第52期《说说心里话》，<a href="http://t.cn/zYntIDX">传送门</a></p>
+<p>——夔州苍云<br>2016年6月19日于青龙</p>
 ]]></content>
       <categories>
         <category>随笔</category>
-        <category>读书笔记</category>
       </categories>
       <tags>
-        <tag>读书笔记</tag>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>花海芳踪</title>
+    <url>/2016/08/13/b7b47068a49f/</url>
+    <content><![CDATA[<p>老婆特别喜欢拍照，这次同行有专业人士代劳，我也乐得清闲。<code>P9Leica</code>效果虽然不错，但是单反的画质明显更加细腻。</p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246726499426198.jpg" alt="花海芳踪"></p>
+<a id="more"></a>
+
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246726499426199.jpg" alt="花海芳踪"></p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246730794393497.jpg" alt="花海芳踪"></p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246735089360795.jpg" alt="花海芳踪"></p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246739384328093.jpg" alt="花海芳踪"></p>
+<hr>
+<p>——摄于重庆市巫溪县红池坝风景区<br>2016年8月6日</p>
+]]></content>
+      <categories>
+        <category>摄影</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>Family</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>探秘巫溪烤鱼</title>
+    <url>/2016/09/01/ce6798c4a9bc/</url>
+    <content><![CDATA[<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166885180926281.jpg" alt="探秘巫溪烤鱼"></p>
+<a id="more"></a>
+
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166889475893578.jpg" alt="探秘巫溪烤鱼"></p>
+<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6325166893770860876.jpg" alt="探秘巫溪烤鱼"></p>
+]]></content>
+      <categories>
+        <category>摄影</category>
+        <category>美食</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+        <tag>美食</tag>
       </tags>
   </entry>
   <entry>
@@ -320,25 +327,29 @@
       </tags>
   </entry>
   <entry>
-    <title>花海芳踪</title>
-    <url>/2016/08/13/b7b47068a49f/</url>
-    <content><![CDATA[<p>老婆特别喜欢拍照，这次同行有专业人士代劳，我也乐得清闲。<code>P9Leica</code>效果虽然不错，但是单反的画质明显更加细腻。</p>
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246726499426198.jpg" alt="花海芳踪"></p>
+    <title>读书笔记——《看见》</title>
+    <url>/2013/03/11/f2dd62a49794/</url>
+    <content><![CDATA[<p>拖拖拉拉三个月才看完柴姑娘的新书。<br>书刚到的时候把楚娴寄来的贺卡夹在书里做书签，上面写上:</p>
+<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>你站在桥上看风景<br>看风景的人在楼上看你<br><strong>卞之琳</strong></p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+
 <a id="more"></a>
 
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246726499426199.jpg" alt="花海芳踪"></p>
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246730794393497.jpg" alt="花海芳踪"></p>
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246735089360795.jpg" alt="花海芳踪"></p>
-<p><img src="https://gitee.com/kzcy/pic/raw/master/img/6318246739384328093.jpg" alt="花海芳踪"></p>
+<p>注明开始看书之日2013.1.1，卡片是类似即拍即得的巴黎埃菲尔铁塔。在《看见》里，柴姑娘写到刚到央视的时候，陈虻批评她“<code>娇弱造作，不可忍受</code>” <a href="%E3%80%8A%E7%9C%8B%E8%A7%81%E3%80%8Bpage11">^1</a>。想到当初在书签上写那诗的心情，确实可以配上矫揉造作的标签。难道这是年轻的通病？<br>如果可以像鲁迅先生讲的那样在书本的字里行间读出其他，那么我在柴姑娘的书里面读出来的就是反省，在自己不断的反省中进步。我很认同这个观点，我觉得人总是在不断的总结中反省，反省中修正，修正中完善。当然，我们不可能成为完美的人，因为那是不存在的。但是，我们可以在不断的完善中达到自己更好的状态，直到我们停止总结。<br>年轻的时候狂妄甚至自大，特别是在这样的年纪。刚刚经历了大学里或许是最为辉煌的岁月，突然被流放到各种各样的环境中。适应是一个痛苦的过程，周围的人会不断的告诉你该这样该那样，那样不行这样不行。开始的倔强会换来摇头叹息，还是太年轻，不撞南墙怎么会回头呢？慢慢的，接受了世界的规则，会慢慢修正自己变成他们中的一员。只是我想：我不会对后来的同志说同样的话，我会对他们说“<code>按照你想的去做就好了</code>”。“<code>你去告诉别人应该怎么样，这就是错的方式</code>”[^2]。<br>古人云：“<code>读万卷书，行万里路</code>”，高晓松老师说此话已经不再适用于当今的社会，应该倒过来说“<code>行万里路，读万卷书</code>”[^3]，故纸堆里读来的东西远远没有自身感受有用。高老师的意思是书随时都可以读，但是行路需要体力，应该放在年轻的时候。对于我这个天性向往自由又自我压抑的人来说，这应该就是我所追求的生活。而目前的情况确实是把我困住了，我曾经反问自己是什么把我困住动弹不得？苦思良久未有结论，有待于检验的结果是：<code>理性的羁绊和选择的责任</code>。对于我这样一个天性慵懒的人来说，选择无异于是一个巨大的痛苦，我不知道自己想要的，所以不能知道选择的正确与否。目前来说，我明确的知道自己不想要的，而没有与之相悖，所以这是我认为正确的选择。我也必将承担这理性的羁绊和选择的责任。既然目前不能行万里路，那么先读万卷书吧。</p>
+<p>Peter.潘于青龙<br>2013年3月11日</p>
 <hr>
-<p>——摄于重庆市巫溪县红池坝风景区<br>2016年8月6日</p>
+<p>[^2]: 《看见》page 376<br>[^3]: 《晓说》第52期《说说心里话》，<a href="http://t.cn/zYntIDX">传送门</a></p>
 ]]></content>
       <categories>
-        <category>摄影</category>
+        <category>随笔</category>
+        <category>读书笔记</category>
       </categories>
       <tags>
-        <tag>摄影</tag>
-        <tag>Family</tag>
+        <tag>读书笔记</tag>
       </tags>
   </entry>
   <entry>
