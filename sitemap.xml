@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://kzcy.gitee.io/2020/10/15/3cbf6387e04c/</loc>
-    
-    <lastmod>2020-10-15</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://kzcy.gitee.io/2020/08/27/20bc1cc603ce/</loc>
     
     <lastmod>2020-08-27</lastmod>
@@ -209,14 +202,14 @@
   </url>
   
   <url>
-    <loc>https://kzcy.gitee.io/categories/%E6%8A%80%E6%9C%AF/%E5%A4%87%E5%BF%98/</loc>
+    <loc>https://kzcy.gitee.io/categories/%E6%91%84%E5%BD%B1/</loc>
     <lastmod>2020-10-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://kzcy.gitee.io/categories/%E6%91%84%E5%BD%B1/</loc>
+    <loc>https://kzcy.gitee.io/categories/%E6%8A%80%E6%9C%AF/%E5%A4%87%E5%BF%98/</loc>
     <lastmod>2020-10-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
